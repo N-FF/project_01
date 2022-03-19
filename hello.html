@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <style>
+    </style>
+</head>
+<body>
+    <h1 class="hw">Hello World !</h1>
+    <button class="btn1">变成红色</button>
+    <button class="btn2">复原</button>
+    <script>
+        var btn1=document.querySelector(".btn1");
+        var btn2=document.querySelector(".btn2");
+        var hw=document.querySelector(".hw");
+        
+        btn1.onclick=function(){
+            hw.style.color="red";
+        }
+        btn2.onclick=function(){
+            hw.style.color="";
+        }
+    </script>
+</body>
+</html>
